@@ -1,0 +1,30 @@
+{
+	"data": {
+		"sections": [{
+			"id": 1,
+			"title": "nissan gtr",
+			"image": "https://www.google.com.mx",
+			"artitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+		}, {
+			"id": 2,
+			"title": "Ford mustang",
+			"image": "",
+			"artitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+		}, {
+			"id": 3,
+			"title": "Chevrolet Camaro",
+			"image": "",
+			"artitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+		}],
+		"menu": [{
+			"id": 1,
+			"title": "Sport"
+		}, {
+			"id": 2,
+			"title": "Turismo"
+		}, {
+			"id": 3,
+			"title": "Coupe"
+		}]
+	}
+}
