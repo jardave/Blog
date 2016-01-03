@@ -10,7 +10,32 @@ body {
 	background-color: #448D7A;
 	color: #fff;
 }
+#main-container aside#main-nav {
+	position: fixed;
+	top: 120px;
+	left: -5px;
+	width: 20%;
+	background-color: #EBE18C;
+	color: #448D7A;
+	text-align: center;
+	border-radius: 1px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+@media screen and (max-width: 480px) {
 
+	#main-container aside#main-nav {
+        position: fixed;
+
+        left: 300px;
+        top:70px;
+	width: 20%;
+	background-color: #EBE18C;
+	color: #448D7A;
+	text-align: center;
+	border-radius: 1px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+}
 
 @media screen and (max-width: 480px) {
 	body {
@@ -19,17 +44,15 @@ body {
 	}
 }
 
+
 ul {
 	margin: 0;
 	padding: 0;
+
 }
 
-@media screen and (max-width: 480px) {
-	ul {
 
-		display: none;
-	}
-}
+
 
 
 /*header*/
@@ -70,20 +93,11 @@ ul {
 	float: right;
 	color: #448D7A;
 	text-decoration: none;
+        
+
 }}
 
 /*aside*/
-#main-container aside#main-nav {
-	position: fixed;
-	top: 120px;
-	left: -5px;
-	width: 20%;
-	background-color: #EBE18C;
-	color: #448D7A;
-	text-align: center;
-	border-radius: 1px;
-	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-}
 
 #main-container #main-nav nav li{
 	height: 60px;
@@ -229,9 +243,10 @@ ul {
         float: right;
         width: 60px;
         height: 60px;
-        position: absolute;
-        right: 0;
-        top:0;
+        position: fixed;
+
+        right: 0px;
+        top:70px;
         opacity: .6;
 
     }   
@@ -242,6 +257,8 @@ ul {
 
 @media screen and (max-width: 480px) {
         
+
+
     h2{font-size: 40px;}
     
     /* mostramos #nav-mobile */
@@ -252,6 +269,7 @@ ul {
         width: 100%;
         float: none;
         padding-top: 60px;
+
     }
         /* Convertimos nuestra lista de enlaces en un menú horizontal */
         #menu ul{
@@ -263,6 +281,7 @@ ul {
         }
             /* estilos para los LI del menu */
             #menu li{
+
                 background: #33363b;
                 border-bottom: 1px solid #282b30;
                 float: none;
@@ -271,6 +290,7 @@ ul {
             /* Quitamos el borde del ultimo item del menú */
             #menu li:last-child{ border-bottom: 0;}
                 #menu li a{
+
                     padding: 15px 0;
                     height: auto;
                     line-height: normal;
@@ -279,6 +299,7 @@ ul {
 
         /* Agregamos una animación al despligue del menú */
         #menu ul.open-menu{
+
             max-height: 400px;
             -webkit-transition: max-height .4s;
             -moz-transition: max-height .4s;
